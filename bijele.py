@@ -1,0 +1,8 @@
+l = list(map(int, input().split()))
+l[0] = str(1-l[0])
+l[1] = str(1-l[1])
+l[2] = str(2-l[2])
+l[3] = str(2-l[3])
+l[4] = str(2-l[4])
+l[5] = str(8-l[5])
+print(" ".join(l))
