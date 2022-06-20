@@ -1,5 +1,4 @@
-4
-c++
-C++
-c
-c#
+3
+pop
+dink
+thumb
