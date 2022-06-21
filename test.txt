@@ -1,4 +1,4 @@
-3
-pop
-dink
-thumb
+2 4
+A -> AB
+B -> A
+C
