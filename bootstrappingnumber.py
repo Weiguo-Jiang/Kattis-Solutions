@@ -2,7 +2,7 @@ n = int(input())
 approx = 1
 high = 10
 low = 1
-for i in range(1000):
+for i in range(100):
 	p = approx**approx
 	if p == n:
 		break
