@@ -1,3 +1,17 @@
+#
+# BEGIN-HEADER
+#
+# Name: Weiguo Jiang
+#
+# Student-ID: 1670913
+#
+# By submitting this code, you are agreeing that you have solved in accordance
+# with the collaboration policy in CMPUT 303/403.
+#
+# END-HEADER
+#
+
+
 d = dict()
 dd = dict()
 while True:
@@ -37,3 +51,4 @@ while True:
 				print(" ".join(eq) + " " + dd[ans])
 			else:
 				print(" ".join(eq)+" unknown")
+
