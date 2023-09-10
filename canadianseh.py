@@ -1,0 +1,1 @@
+print("Canadian!" if input().split()[-1] == 'eh?' else "Imposter!")
