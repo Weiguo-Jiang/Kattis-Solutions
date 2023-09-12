@@ -1,0 +1,1 @@
+print("".join(sorted([i for i in input()] + [i for i in input()])))
