@@ -1,5 +1,4 @@
 d = dict()
-
 def recur(depth, num, ub):
     if depth == 0:
         return 1
@@ -15,7 +14,6 @@ def recur(depth, num, ub):
         s = recur(depth-1, num-1, ub) + recur(depth-1, num, ub) + recur(depth-1, num+1, ub)
 
     d[(depth, num)] = s
-
     return s
 
 while True:
@@ -32,8 +30,6 @@ while True:
     cnt = 0
     for i in range(k+1):
         cnt += recur(n-1, i, k)
-
     print(cnt/comb*100)
-
+    
     d = dict()
-
