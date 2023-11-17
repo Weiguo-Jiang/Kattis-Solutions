@@ -1,2 +1,2 @@
 # Kattis-solutions
-Kattis grind
+grinding
